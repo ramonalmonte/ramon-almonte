@@ -41,28 +41,34 @@ h2 {
 }
 
 #message-display{
-	width: 80%;
+	width: 95%;
 	height:50px;
 	margin-top:3%;
 	margin-bottom:3%;
 	margin-left:3%;
+	margin-right:0px;
+	position: absolute;
 }
 
-.message{
-	float: left;
-	width:50%;
-	height:85%;
+#this-message{
+	word-break: break-all;
+	width:70%;
 	border-radius:5px;
-	margin-left:10px;
+	margin-left:80px;
 	background-color:white;
+	/* position: absolute; */
 }
 
 table{
 	width:100%;
 }
-td{
-	border:solid black 3px;
+
+tr{
 	width:100%;
+}
+td{
+	/*border:solid black 3px;*/
+	width:100%;	
 }
 
 #message-text{
